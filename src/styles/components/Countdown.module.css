@@ -3,7 +3,7 @@
   align-items: center;
   font-family: Rajdhani;
   font-weight: 600;
-  color: var(--title);
+  color: var(--white);
 }
 
 .countdownContainer > div {
@@ -13,7 +13,8 @@
   align-items: center;
   justify-content: space-evenly;
 
-  background: var(--white);
+  background: #030917;
+  border-radius: 30px;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
   font-size: 8.5rem;
   text-align: center;

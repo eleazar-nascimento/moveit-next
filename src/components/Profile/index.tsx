@@ -4,17 +4,17 @@ import styles from '../../styles/components/Profile.module.css';
 
 export function Profile() {
   const { level } = useContext(ChallengesContext);
-  
+
   return (
     <div className={styles.profileContainer}>
-      <img src="https://github.com/eleazar-nascimento.png" alt="Elezar Nascimento"/>
+      <img src="https://avatars.githubusercontent.com/u/151174385?v=4" alt="Elezar Nascimento" />
       <div>
-        <strong>Eleazar Nascimento</strong>
+        <strong>Nathanael Santos</strong>
         <p>
-          <img src="icons/level.svg" alt="level"/>
+          <img src="icons/level.svg" alt="level" />
           Level {level}
         </p>
       </div>
     </div>
-    );
+  );
 }
